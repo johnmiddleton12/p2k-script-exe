@@ -1,6 +1,6 @@
 # p2k-script-exe
 
-###This is a modification of the script made by [maxbrand99](https://twitter.com/maxbrand99) making it easier to use, with less installation required
+### This is a modification of the script made by [maxbrand99](https://twitter.com/maxbrand99) making it easier to use, with less installation required
 
 have fun kongz...runs p2k for you
 
