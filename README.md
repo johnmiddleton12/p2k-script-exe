@@ -4,7 +4,7 @@
 
 This is a modification of the script made by [maxbrand99](https://twitter.com/maxbrand99) making it easier to use, with less installation required
 
-This was done using [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/), which allowed for bundling of the web3 pip module, removing the need to build the web3 package locally or install any dependencies, including python.
+This was done using [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/), which allowed for bundling of the web3 python module, removing the need to build the web3 package locally or install any dependencies, including python.
 
 ### Usage
 
