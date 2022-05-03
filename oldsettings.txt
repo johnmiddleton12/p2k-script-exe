@@ -1,10 +1,5 @@
-address: 0xd06f77605F887dC382CF74c8de723E4b53D14a7c
-private key: PUTPRIVATEKEYHERE
-number of runs: 50
-team number: 0
-gas price: 150
-use fuel rods? (True/False): False
-charm to use: 0
+address, private key, NUM_RUNS, TEAM_NUMBER, GAS_PRICE, USE_FUEL_RODS, CHARM_TO_USE
+0x132, 9103, 50, 0, 150, False, 0
 
 notes:
 

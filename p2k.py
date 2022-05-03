@@ -6,11 +6,14 @@ import concurrent.futures
 
 # DONATIONS: 0xd06f77605F887dC382CF74c8de723E4b53D14a7c
 
-
 f = open("settings.txt", "r")
-# address, private key, NUM_RUNS, TEAM_NUMBER, GAS_PRICE, USE_FUEL_RODS, CHARM_TO_USE
-line = f.readlines()[1].split(',')
-line = [x.strip() for x in line]
+lines = f.readlines()
+values = [line.split(':')[1].strip() for line in lines[0:7]]
+line = values 
+print(line)
+# f = open("settings.txt", "r")
+# line = f.readlines()[1].split(',')
+# line = [x.strip() for x in line]
 
 address = Web3.toChecksumAddress(line[0])
 key = line[1] 
