@@ -8,8 +8,6 @@ This was done using [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/), 
 
 ### Usage
 
-Go to the release on the right, and follow these instructions
-
 1. Download [p2k.zip](https://github.com/johnmiddleton12/p2k-script-exe/releases/download/v1.0.0/p2k.zip)
 
 2. Extract the archive
