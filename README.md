@@ -2,6 +2,12 @@
 
 ### This is a modification of the script made by [maxbrand99](https://twitter.com/maxbrand99) making it easier to use, with less installation required
 
+### Usage
+
+to be added
+
+#### Original description:
+
 have fun kongz...runs p2k for you
 
 THIS WILL OVERPAY FOR GAS. I didnt feel like figuring it out at time of run, so I just defaulted to the same number. Thankfully, its matic chain so it does not really matter.
