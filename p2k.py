@@ -10,7 +10,6 @@ f = open("settings.txt", "r")
 lines = f.readlines()
 values = [line.split(':')[1].strip() for line in lines[0:7]]
 line = values 
-print(line)
 # f = open("settings.txt", "r")
 # line = f.readlines()[1].split(',')
 # line = [x.strip() for x in line]
