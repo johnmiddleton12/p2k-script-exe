@@ -1,12 +1,17 @@
 address, private key, NUM_RUNS, TEAM_NUMBER, GAS_PRICE, USE_FUEL_RODS, CHARM_TO_USE
 0x132, 9103, 50, 0, 150, False, 0
 
+notes:
 
-Make sure the values to use are on the SECOND line
-follow the format provided on first line, making sure commas are included
+    Make sure the values to use are on the SECOND line
+    follow the format provided on first line, making sure commas are included
 
-charm help from maxbrand99:
-0 = No Charm
-1 = Cyber Fragment
-2 = Rainbow Crystal
-3 = Promethean Relic
+    change gas price if needed
+
+    set USE_FUEL_RODS to True if you want to use the fuel rods
+
+    charm help from maxbrand99:
+    0 = No Charm
+    1 = Cyber Fragment
+    2 = Rainbow Crystal
+    3 = Promethean Relic
