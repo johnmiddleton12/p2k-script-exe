@@ -10,7 +10,13 @@ This was done using [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/), 
 
 Go to the release on the right, and follow these instructions
 
-1. Download [p2k.zip](p2k.zip)
+1. Download [p2k.zip](https://github.com/johnmiddleton12/p2k-script-exe/releases/download/v1.0.0/p2k.zip)
+
+2. Extract the archive
+
+3. Change the settings in settings.txt for your keys and settings
+
+4. Run p2k.exe
 
 ### Original description:
 
