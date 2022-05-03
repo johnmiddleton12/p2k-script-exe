@@ -10,7 +10,7 @@ This was done using [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/), 
 
 Go to the release on the right, and follow these instructions
 
-1. Download [p2k.zip relative link](p2k.zip)
+1. Download [p2k.zip](p2k.zip)
 
 ### Original description:
 
