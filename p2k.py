@@ -1,27 +1,33 @@
-# AUTHOR: https://twitter.com/maxbrand99
+# Cred original script: https://twitter.com/maxbrand99
 
 import math
 from web3 import Web3
 import concurrent.futures
 
-# DONATIONS: 0xd32f25Dfa932b8064A81B8254E7997CAeBc85F97
-# I release this script for free and rely on the donations of my fellow Kongz.
-address = Web3.toChecksumAddress("")
-key = ""
-NUM_RUNS = 50
-TEAM_NUMBER = 0
+# DONATIONS: 0xd06f77605F887dC382CF74c8de723E4b53D14a7c
+
+
+f = open("settings.txt", "r")
+# address, private key, NUM_RUNS, TEAM_NUMBER, GAS_PRICE, USE_FUEL_RODS, CHARM_TO_USE
+line = f.readlines()[1].split(',')
+line = [x.strip() for x in line]
+
+address = Web3.toChecksumAddress(line[0])
+key = line[1] 
+NUM_RUNS = int(line[2])
+TEAM_NUMBER = int(line[3])
 
 # Change the gas price if you want. I am not responsible for stuck txs if you decide to be cheap on gas.
-GAS_PRICE = 150
+GAS_PRICE = int(line[4])
 
 # Set this to true to use fuel rods
-USE_FUEL_RODS = False
+USE_FUEL_RODS = line[5] == "True"
 
 # 0 = No Charm
 # 1 = Cyber Fragment
 # 2 = Rainbow Crystal
 # 3 = Promethean Relic
-CHARM_TO_USE = 0
+CHARM_TO_USE = int(line[6])
 
 
 # DO NOT TOUCH ANYTHING BELOW THIS LINE
