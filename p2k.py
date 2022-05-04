@@ -7,7 +7,13 @@ from multiprocessing import freeze_support
 
 # DONATIONS: 0xd06f77605F887dC382CF74c8de723E4b53D14a7c
 
-f = open("settings.txt", "r")
+try:
+    f = open("settings.txt", "r")
+except:
+    print("Error: reading settings.txt")
+    print("Close this window to exit")
+    input()
+
 lines = f.readlines()
 values = [line.split(':')[1].strip() for line in lines[0:7]]
 line = values 
