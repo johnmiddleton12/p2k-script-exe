@@ -3,6 +3,7 @@
 import math
 from web3 import Web3
 import concurrent.futures
+from multiprocessing import freeze_support
 
 # DONATIONS: 0xd06f77605F887dC382CF74c8de723E4b53D14a7c
 
@@ -31,6 +32,8 @@ USE_FUEL_RODS = line[5] == "True"
 # 3 = Promethean Relic
 CHARM_TO_USE = int(line[6])
 
+# necessary for exe conversion
+freeze_support()
 
 # DO NOT TOUCH ANYTHING BELOW THIS LINE
 
