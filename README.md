@@ -1,22 +1,17 @@
 # p2k-script-exe
 
-### Description
-
 This is a modification of the script made by [maxbrand99](https://twitter.com/maxbrand99) making it easier to use, with less installation required - original [repo](https://github.com/maxbrand99/maxbanned-p2k-script)
 
 This was done using [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/), which allowed for bundling of the web3 python module, removing the need to build the web3 package locally or install any dependencies, such as the C++ build tools.
 
-### Usage
+## Usage
 
 1. Download [p2k.zip](https://github.com/johnmiddleton12/p2k-script-exe/releases/latest/download/p2k.zip)
-
 2. Extract the archive
-
 3. Change the settings in settings.txt for your keys and settings
-
 4. Run p2k.exe
 
-### Original description:
+## Original description:
 
 have fun kongz...runs p2k for you
 
